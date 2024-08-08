@@ -79,7 +79,7 @@ public class Main {
       System.out.println("Added book successfully");
 
       for(Book bk1: bookList){
-        System.out.println("--------------These are book objts------------------------");
+        System.out.println("------------These are book objts--------------------");
         System.out.println(bk1);
         if(bk1 instanceof Book){
           System.out.println("Book title is "+ bk1.getTitle());
